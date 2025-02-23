@@ -39,7 +39,7 @@ This Python application allows users to control a turtle (a graphical representa
 - The turtle's movements are updated in real time on the screen, offering an interactive graphical experience.
 
 ## Example Screenshot
-_(Add a screenshot if applicable)_
+_TODO: Add Screenshot_
 ## Exit the Program
 To exit the application:
 - Press the **`C`** key to close the program gracefully, or
