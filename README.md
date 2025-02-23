@@ -5,8 +5,9 @@ This Python application allows users to control a turtle (a graphical representa
 - **Move Forward**: Press the **`W`** key to move the turtle forward by 10 units.
 - **Turn Left**: Press the **`A`** key to rotate the turtle 10 degrees to the left.
 - **Turn Right**: Press the **`D`** key to rotate the turtle 10 degrees to the right.
-- **Move Backward**: Press the **`S`** key to move the turtle backward by 10 units.
-- **Exit the Application**: Press the **`C`** key to close the application.
+- **Move Backward**: Press the **`S`** key to move the turtle backward by 10 units.a
+- **Reset/Clear Screen**: Press the **`C`** to clear the screen and reset turtle
+- **Exit the Application**: Press the **`X`** key to close the application.
 
 ## Getting Started
 ### Prerequisites
@@ -27,13 +28,14 @@ This Python application allows users to control a turtle (a graphical representa
     - **A**: Turn Left
     - **D**: Turn Right
     - **S**: Move Backward
-    - **C**: Exit the application
+    - **C**: Clear Screen, Reset Turtle
+    - **X**: Exit the application
 
 2. The turtle will respond to the specified key presses and perform the corresponding movements or actions.
 
 ## How It Works
 - The application listens for keypress events using the `screen.listen()` function provided by the `turtle` library.
-- Specific keys (`w`, `a`, `s`, `d`, `c`) are mapped to functions (`move_forward`, `turn_left`, `turn_right`, `move_backward`, `exit`), which are invoked when the keys are pressed.
+- Specific keys (`w`, `a`, `s`, `d`, `c`, `x`) are mapped to functions (`move_forward`, `turn_left`, `turn_right`, `move_backward`, `reset/clear screen`, `exit`), which are invoked when the keys are pressed.
 - The turtle's movements are updated in real time on the screen, offering an interactive graphical experience.
 
 ## Example Screenshot

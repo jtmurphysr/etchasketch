@@ -1,3 +1,4 @@
+import turtle
 from turtle import Turtle, Screen
 
 # Create a Turtle object named "tim"
@@ -41,7 +42,7 @@ screen.onkey(key="w", fun=move_forward)  # Move forward
 screen.onkey(key="a", fun=turn_left)  # Turn left
 screen.onkey(key="d", fun=turn_right)  # Turn right
 screen.onkey(key="s", fun=move_backward)  # Move backward
-screen.onkey(key="c", fun=screen.bye)  # Exit program on "c"
-
+screen.onkey(key="c", fun=turtle.resetscreen)  # clear screen
+screen.onkey(key="x", fun=screen.bye)  # Exit program
 # Keeps the screen open until it is clicked again for termination
 screen.exitonclick()
